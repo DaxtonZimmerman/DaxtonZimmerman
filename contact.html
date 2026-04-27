@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Personal Website | Contact</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <div class="page-wrapper">
+    <header class="site-header">
+      <a href="index.html" class="brand">Daxton Zimmerman</a>
+      <button class="nav-toggle" aria-label="Open navigation">Menu</button>
+      <nav class="site-nav">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="portfolio.html">Portfolio</a></li>
+          <li><a href="contact.html" class="active">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section class="page-intro">
+        <span class="eyebrow">Send a message</span>
+        <h1>Interested in working with an eager learner?</h1>
+        <p>I’m seeking real web design experience and would love to help build your first website or website update.</p>
+      </section>
+
+      <section class="contact-panel">
+        <form class="contact-form" action="#" method="post">
+          <label for="name">Name</label>
+          <input type="text" id="name" name="name" placeholder="Your full name" required />
+
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" placeholder="you@example.com" required />
+
+          <label for="phone">Phone</label>
+          <input type="tel" id="phone" name="phone" placeholder="(123) 456-7890" />
+
+          <label for="projectType">Project type</label>
+          <select id="projectType" name="projectType" required>
+            <option value="">Choose one</option>
+            <option value="siteRedesign">Website redesign</option>
+            <option value="newWebsite">New website</option>
+            <option value="branding">Branding & identity</option>
+          </select>
+
+          <label for="budget">Budget range</label>
+          <select id="budget" name="budget">
+            <option value="">Select range</option>
+            <option value="under3k">Under $3,000</option>
+            <option value="3k-6k">$3,000–$6,000</option>
+            <option value="6kplus">$6,000+</option>
+          </select>
+
+          <label for="message">Message</label>
+          <textarea id="message" name="message" rows="5" placeholder="Tell me about your goals"></textarea>
+
+          <div class="form-footer">
+            <button type="submit" class="btn btn-primary">Send Message</button>
+            <p class="small-text">I reply to every message within 24 hours.</p>
+          </div>
+        </form>
+        <aside class="contact-info">
+          <h2>Prefer to connect directly?</h2>
+          <p>Email me at <a href="mailto:hello@daxtonzimmerman.design">hello@daxtonzimmerman.design</a> or request a quick call.</p>
+        </aside>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>&copy; 2026 Daxton Zimmerman · Crafted for modern browsing</p>
+      <nav class="footer-nav">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="portfolio.html">Portfolio</a>
+      </nav>
+    </footer>
+  </div>
+  <script src="js/script.js" defer></script>
+</body>
+</html>
