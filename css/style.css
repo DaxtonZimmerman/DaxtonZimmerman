@@ -4,6 +4,7 @@
 }
 
 body {
+  min-height: 100vh;
   margin: 0;
   font-family: Arial, Helvetica, sans-serif;
   background: #0d1117;
@@ -20,6 +21,13 @@ a {
   color: inherit;
 }
 
+.eyebrow {
+  text-transform: uppercase;
+  font-size: 0.9rem;
+  color: #2388ff;
+  letter-spacing: 1px;
+  
+}
 
 
 .page-wrapper {
@@ -212,6 +220,7 @@ main {
   border: 1px solid #30363d;
   padding: 25px;
   border-radius: 18px;
+  margin-bottom: 20px;
 }
 
 .overview-card:hover,
@@ -230,10 +239,14 @@ main {
   line-height: 1.6;
 }
 
+.contact-info {
+  text-align: center;
+}
 
 
 .about-grid {
-  grid-template-columns: 1.4fr 1fr;
+  margin-top: 30px ;
+  margin-bottom: 40px;
 }
 
 .section-title {
@@ -284,6 +297,10 @@ main {
 
 .contact-form label {
   font-weight: bold;
+  margin-top: 8px;
+  margin-bottom: 4px;
+  display: block;
+
 }
 
 .contact-form input,
@@ -295,7 +312,11 @@ main {
   border: 1px solid #30363d;
   background: #0d1117;
   color: white;
+  min-width: 400px;
+  max-width: 580px;
+  max-height: 240px;
 }
+
 
 
 .site-footer {
